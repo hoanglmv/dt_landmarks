@@ -1,0 +1,22 @@
+trainer:
+  accelerator: cpu
+  max_epochs: 100
+  log_every_n_steps: 10
+  val_check_interval: 1.0
+model:
+  learning_rate: 0.001
+dataset:
+  data_path: D:/lmvh/Detect_Facial_Landmarks/data_image/ibug_300W_large_face_landmark_dataset/labels_ibug_300W_train.xml
+  root_dir: D:/lmvh/Detect_Facial_Landmarks/data_image/ibug_300W_large_face_landmark_dataset
+  target_size:
+  - 224
+  - 224
+  bbox_scale_factor: 1.2
+  apply_augmentation: true
+  batch_size: 32
+  num_workers: 4
+optimizer:
+  name: Adam
+  lr: 0.001
+experiment_name: facial_landmarks_detection
+checkpoint_dir: ./checkpoints
