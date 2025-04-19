@@ -18,7 +18,7 @@ This project implements a deep learning pipeline for detecting facial landmarks 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hoanglmv/dt_landmarks.git
    cd dt_landmarks
    ```
 
