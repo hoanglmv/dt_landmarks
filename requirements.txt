@@ -1,0 +1,13 @@
+opencv-python
+pytorch
+pytorch-lightning
+torchvision
+numpy
+scikit-learn
+scikit-image
+matplotlib
+pandas
+seaborn
+tqdm
+requests
+tensorflow
