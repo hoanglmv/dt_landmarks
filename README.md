@@ -39,6 +39,7 @@ python src/main.ipynb
 
 ### Visualizing Predictions
 After training, visualize predictions using the provided visualization cells in the notebook.
+![Ảnh demo]("demo.png")
 
 ### Model Checkpoints
 The trained model is saved in the `trained_models` directory as `facial_landmarks_model.pth`.
