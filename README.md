@@ -32,13 +32,15 @@ This project implements a deep learning pipeline for detecting facial landmarks 
 ## Usage
 
 ### Training the Model
-Run the training script:
-```bash
-python src/main.ipynb
-```
+Run can run the jupyter notebook `train.ipynb` to train the model. The notebook includes sections for:
+- Loading the dataset
+- Preprocessing images and landmarks
+- Defining the model architecture
+- Training and validation loops
+- Saving the trained model
 
 ### Visualizing Predictions
-After training, you can visualization the predictions on test images. Example below:
+After training, you can visualize the predictions on test images. Example below:
 ![Ảnh demo](demo.png)
 
 
