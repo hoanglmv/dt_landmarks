@@ -38,7 +38,7 @@ python src/main.ipynb
 ```
 
 ### Visualizing Predictions
-After training, visualize predictions using the provided visualization cells in the notebook.
+After training, you can visualization the predictions on test images. Example below:
 ![Ảnh demo](demo.png)
 
 
